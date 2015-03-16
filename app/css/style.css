@@ -1,0 +1,19 @@
+.titulo_popup {
+    color: #004080;
+    font-weight: bold;
+    margin-bottom: 0.23em;
+}
+
+.container6 {
+    max-width: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.caja_aviso_info {
+    background: url(../img/info.png) no-repeat 18px 44px #fafafa;
+}
+
+.body_popup .container6 .top30, .body_popup .container8 .top30, .body_popup .container10 .top30 {
+    padding-top: 1.875em !important;
+}

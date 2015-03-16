@@ -1,0 +1,27 @@
+<div class="container caja_aviso_info" ng-controller="beerForm_controller">
+    <h1>Formulario Beer's</h1>
+    
+    <p>Formulario para llenar bebidas en MongoDB</p>
+    <h4>{{smsCgHijo}}</h4>
+    <form role="form">
+        
+        <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" ng-model="myBeerForm.name" placeholder="Nombre">
+        </div>
+
+        <div class="form-group">
+            <label for="type">Tipo:</label>
+            <input type="text" class="form-control" id="type" ng-model="myBeerForm.type" placeholder="Tipo">
+        </div>
+
+        <div class="form-group">
+            <label for="quantity">Cantidad:</label>
+            <input type="text" class="form-control" id="quantity" ng-model="myBeerForm.quantity" placeholder="Cantidad">
+        </div>
+
+        <button ng-click="submitFormBeer()" class="btn btn-default">Submit</button>
+        
+    </form>
+</div>
+   
